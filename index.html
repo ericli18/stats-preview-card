@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Lexend+Deca"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="card-container">
+        <div class="image-area">
+          <picture>
+            <source
+              media="(min-width: 36rem)"
+              srcset="./images/image-header-desktop.jpg"
+            />
+            <img src="./images/image-header-mobile.jpg" alt="People in a meeting talking" />
+          </picture>
+        </div>
+        <div class="text-area">
+          <h2 class="card-heading">
+            Get <span class="callout-word">insights</span> that help your
+            business grow.
+          </h2>
+          <p class="info-text">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <ul class="stats-container">
+            <li class="stat-item">
+              <span class="stat-number">10k+</span>
+              <span class="stat-text">companies</span>
+            </li>
+            <li class="stat-item">
+              <span class="stat-number">314</span>
+              <span class="stat-text">templates</span>
+            </li>
+            <li class="stat-item">
+              <span class="stat-number">12m+</span>
+              <span class="stat-text">queries</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
